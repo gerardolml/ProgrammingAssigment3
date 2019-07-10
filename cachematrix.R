@@ -27,6 +27,7 @@ cacheSolve <- function(x, ...) {
         matriz <- x$get()
         inversa <- solve(matriz, ...)
         x$setInversa(inversa)
+ #return irnverse of the special "matrix"
         inversa
 }
 
